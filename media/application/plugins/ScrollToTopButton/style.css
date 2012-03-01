@@ -1,0 +1,66 @@
+/* 
+    Document   : style
+    Created on : 17.02.2012, 3:17:01
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+
+
+.scroll-to-top-button{
+	background: #666 url(/media/application/plugins/ScrollToTopButton/Upload.png) center center no-repeat;
+	width: 32px;
+	height: 32px;
+	color: #fff;
+	font-family: verdana;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	cursor: pointer;
+	padding: 15px;
+	margin: 20px;
+}
+*/
+/*
+Back to top button 
+*/
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	margin-left: -150px;
+}
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(/media/application/plugins/ScrollToTopButton/up-arrow.png) no-repeat center center;
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
