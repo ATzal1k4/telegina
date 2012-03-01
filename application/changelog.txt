@@ -1,9 +1,0 @@
-application
-#########
-# 0.0.0 #
-#########
-
-
-=======================
-/views/admin/news/add
-/views/admin/pages/add
